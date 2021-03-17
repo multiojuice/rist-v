@@ -1,5 +1,5 @@
 # Project Title
-
+Pringos
 Team members:
 
 - Zachary Johnson
@@ -8,7 +8,23 @@ Team members:
 - Owen Sullivan
 
 ## Summary Description
-The goal of this project is to learn more about how operating systems work and how the features of Rust aid it's ability to make robust and safe 
-systems programs. We hope that this project will give us all a better understanding of how low-level programs work and how an operating system
-interfaces and works with the physical hardware of the computer.
+The goal of this project is to employ Rust as an embedded systems programming language, as that is one of the largest communities backing the
+language. On top of this, we have a pretty good idea about how to go about it and together as a team we think that this is the type of project that we
+can split into impressive and manageable parts.
+On top of this, the borrow system and support/resources from the community will be a great aid and the prior research already resulted in a game plan
+and order or execution.
+We will have to use a variety of features in rust to complete our project: Unsafe code, Macros, Traits, Borrow System, Inner and Outer Attributes, 
+and inline ASM. 
+
+## Use Cases
+Input and output is going to be through UART (to a user just their keyboard and monitor), so we will have to write a UART driver. Users would use the
+operating system to use on a computer emulator or FPGA to interact with the hardware of the computer. This involves sending the computer input and 
+receiving some sort of “meaningful” output
+
+## Sketch
+
+## Testing
+Due to the nature of our program, most of our tests will be per module that just test the key functions and components. Some of our interoperability 
+will be too hard to write concrete tests for, but will be tested manually during integration. For example, tests could be done to test specific 
+protocols such as UART, to make sure that our end is implemented correctly.
 ## Additional Details
