@@ -1,5 +1,4 @@
-# Project Title
-Pringos
+# PringOS
 Team members:
 
 - Zachary Johnson
