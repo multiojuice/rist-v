@@ -32,7 +32,7 @@ protocols such as UART, to make sure that our end is implemented correctly.
 Minimal viable products would be able run and manage user processes like being able to play a game of tic-tac-toe, implement OS necessities like Time, Random and hopefully some heap memory ops.
 
 ## Stretch Goals
-Stretch goals include developing a network driver, running the os on an FPGA board?, simple filesystem, color on terminal.
+Stretch goals include developing a network driver, running the os on an FPGA board, simple filesystem, color on terminal.
 
 ## Functionality By Checkpoint
 By the checkpoint we would like the operating system to be able to read and process keyboard input and print output to screen.
