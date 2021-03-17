@@ -27,7 +27,10 @@ receiving some sort of “meaningful” output
 Due to the nature of our program, most of our tests will be per module that just test the key functions and components. Some of our interoperability 
 will be too hard to write concrete tests for, but will be tested manually during integration. For example, tests could be done to test specific 
 protocols such as UART, to make sure that our end is implemented correctly.
-## Additional Details
 
+## MVP
+Minimal viable products would be able run and manage user processes like being able to play a game of tic-tac-toe, implement OS necessities like Time, Random and hopefully some heap memory ops.
+
+## Stretch Goals
 
 
