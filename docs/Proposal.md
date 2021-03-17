@@ -22,9 +22,13 @@ operating system to use on a computer emulator or FPGA to interact with the hard
 receiving some sort of “meaningful” output
 
 ## Sketch
+![High Level Design](https://user-images.githubusercontent.com/23535069/111411596-3a470b80-86b1-11eb-8874-d92aad61519f.png)
 
 ## Testing
 Due to the nature of our program, most of our tests will be per module that just test the key functions and components. Some of our interoperability 
 will be too hard to write concrete tests for, but will be tested manually during integration. For example, tests could be done to test specific 
 protocols such as UART, to make sure that our end is implemented correctly.
 ## Additional Details
+
+
+
