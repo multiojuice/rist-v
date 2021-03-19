@@ -1,0 +1,18 @@
+
+Very ambitious ... whole semester-long university courses dedicated to writing a
+micro-OS in Rust.
+
+Presentation mentioned RISC-V and using QEmu and possibly an FPGA
+implementation.  (Mentioning the target architecture would have been helpful in
+the proposal writeup.)
+
+Definitely aim for a modest MVP.
+
+Keep track of the successes and, more importantly, the reasons for/lessons
+learned from the failures and dead-ends.  Those will be useful information to
+pass along at the Checkpoint and Final presentations.
+
+Glad to hear that you've already started making some low-level progress.
+
+
+Score: 10/10
