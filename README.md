@@ -10,11 +10,12 @@ $ cargo install cargo-binutils
 Have Qemu downloaded. 
 
 Before running you need a hard drive file called hdd.dsk in the root directory. To make this file...
+
 Linux: `fallocate fallocate -l 32M hdd.dsk`
 
 Mac: `mkfile 32M hdd.dsk`
 
-Windows: (Instructions)[https://www.howtogeek.com/693588/how-to-install-linux/]
+Windows: [Instructions](https://www.howtogeek.com/693588/how-to-install-linux/)
 
 
 To kill Qemu while its running
